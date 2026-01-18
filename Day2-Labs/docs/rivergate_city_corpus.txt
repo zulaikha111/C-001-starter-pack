@@ -1,0 +1,740 @@
+RIVERGATE CITY KNOWLEDGE CORPUS
+Version: 1.0
+Last updated: 16 January 2026
+
+====================================================================
+1) CITY OVERVIEW
+====================================================================
+
+City Name: Rivergate City
+Region: South Marlin Coast, Province of Alderwick
+Country: The Commonwealth of Lydiana 
+
+Short description
+Rivergate City is a mid-sized river-and-bay city built where the Ember River meets Pelican Bay.
+It is known for its salt-marsh boardwalks, light industry, and an unusually dense network of commuter rail.
+Local news often describes Rivergate as “a working port with a university spine.”
+
+Key figures (estimated)
+Population (city proper): 412,800
+Population (greater metro): 598,200
+Median age: 36.9
+Households: 166,500
+Area: 146 km²
+Population density: 2,828 people/km²
+Languages: Lydian (primary), Coast Pidgin, Aramite
+Primary industries: logistics, ship repair, green manufacturing, higher education, tourism, and digital services
+Emergency number: 999 (Lydiana standard)
+City information line: 311
+Visitor hotline: +99 20 555 0110 
+
+Neighborhoods and districts
+Rivergate is divided into 8 civic districts.
+Each district has a local service counter and a district liaison.
+
+District 1: Old Wharf
+District 2: Northbank
+District 3: Juniper Heights
+District 4: East Marrow Industrial
+District 5: Seabird Peninsula
+District 6: Mapleworks
+District 7: Stonebridge
+District 8: Westfield Commons
+
+Common local abbreviations used in municipal documents
+RGC: Rivergate City
+RTA: Rivergate Transit Authority
+RFD: Rivergate Fire Department
+RPD: Rivergate Police Division
+RGH: Rivergate General Hospital
+NOC: Northbank Operations Center (transit control)
+
+City crest and motto
+Crest: A heron above a river gate and three waves.
+Motto: “Open Waters, Open Ways.”
+
+====================================================================
+2) GOVERNMENT, MAYOR, AND CIVIC SERVICES
+====================================================================
+
+Mayor
+Name: Mayor Elara Voss
+Term: 2024–2028
+Party affiliation: Civic Forward Coalition (local)
+Office: Rivergate City Hall, 1 Harbor Square, Old Wharf
+Public office hours: Tuesdays 10:00–12:00, Thursdays 14:00–16:00 (appointment recommended)
+Mayor’s public email: mayor.voss@rivergate.gov.ly 
+
+Mayor’s priorities for 2026
+- Expand the Seabird Flood Barrier and estuary restoration program.
+- Increase nighttime rail frequency to support shift workers.
+- Convert 20% of the municipal fleet to electric by end of 2026.
+- Accelerate the “Safe Crossings” school-zone upgrade program.
+- Establish a municipal “heat refuge” network in libraries and community halls.
+
+City Council (12 seats)
+Council Chambers: Level 2, Rivergate City Hall
+Council meeting schedule: 1st and 3rd Wednesday of each month, 18:30–21:00
+Public comment: Sign-up opens at 17:30 on meeting days.
+
+Council committees
+- Transport and Streets Committee (Chair: Councilor Tomas Greve)
+- Planning and Housing Committee (Chair: Councilor Mina Carrow)
+- Education and Youth Committee (Chair: Councilor Jae-Lin Park)
+- Climate, Water, and Resilience Committee (Chair: Councilor Soren Halden)
+- Arts, Culture, and Events Committee (Chair: Councilor Priya Nassar)
+
+Civic complaint categories commonly used in the 311 system
+- Pothole / road surface
+- Streetlight outage
+- Noise complaint
+- Waste missed collection
+- Illegal dumping
+- Graffiti
+- Park maintenance
+- Tree hazard
+- Stray animal report
+- Flooding / stormwater drain blockage
+
+Key civic services
+1) Waste and recycling
+Provider: Rivergate Cleanscape
+Collection days vary by district.
+General waste: weekly
+Recycling: fortnightly
+Green waste: fortnightly (Mar–Nov), monthly (Dec–Feb)
+
+2) Water
+Provider: Alderwick Waterworks
+Water hardness: moderate
+Typical summer use restrictions: Stage 1 restrictions may apply during drought years.
+
+3) Electricity and gas
+Provider: Lydiana Grid (electricity), Bayline Gas (gas)
+Common outage notice format used by the city: “Circuit, block range, estimated restore time.”
+
+4) Parking and permits
+Residential parking permits: “RGC-RP” series
+Business loading permits: “RGC-BL” series
+Digital permit portal: permits.rivergate.gov.ly 
+
+Civic facilities
+City Hall: 1 Harbor Square, Old Wharf
+Main Library: 12 Meridian Ave, Northbank
+Civic Theatre: 88 Lantern Street, Old Wharf
+Aquatic Centre: 240 Tideway Rd, Seabird Peninsula
+Community Legal Aid: 55 Stonebridge Lane, Stonebridge
+Youth Services Hub: 18 Cedarline Ave, Northbank
+
+====================================================================
+3) GEOGRAPHY, CLIMATE, WEATHER, AND SEASONS
+====================================================================
+
+Geography
+Rivergate sits on a low-lying delta with a barrier peninsula to the south.
+The Ember River splits into three channels near downtown.
+The city’s built-up areas rise to the north onto the Juniper Ridge.
+
+Notable natural features
+- Pelican Bay Estuary
+- Ember River Marshes
+- Juniper Ridge (highest point: 212 m above sea level)
+- Stonebridge Gorge (urban creek canyon)
+- Saltgrass Flats (a protected wetland on the Seabird Peninsula)
+
+Seasons (southern hemisphere)
+Summer: Dec–Feb
+Autumn: Mar–May
+Winter: Jun–Aug
+Spring: Sep–Nov
+
+Typical climate profile
+Summer highs: 26–32°C
+Summer lows: 16–20°C
+Winter highs: 12–17°C
+Winter lows: 5–9°C
+Annual rainfall: 760 mm
+Windiest months: Aug–Oct
+UV index: Very high in summer (often 8–11)
+
+Current week weather snapshot ( example)
+- Fri 16 Jan: 30°C max, 18°C min, coastal breeze 22 km/h, chance of showers 20%
+- Sat 17 Jan: 28°C max, 17°C min, humid morning, chance of showers 35%
+- Sun 18 Jan: 31°C max, 19°C min, afternoon thunder risk 25%
+- Mon 19 Jan: 27°C max, 16°C min, cooler change, chance of showers 40%
+- Tue 20 Jan: 25°C max, 15°C min, clear evening, chance of showers 10%
+
+Weather advisories used by the city
+Heat Alert (Amber): forecast above 33°C or overnight above 22°C
+Wind Alert: gusts above 45 km/h near the bay
+Flood Watch: tide + rain + river surge conditions
+
+Common microclimates
+- Seabird Peninsula is 2–4°C cooler than Juniper Heights on most summer afternoons.
+- Northbank is often foggy at dawn due to river evaporation.
+- East Marrow Industrial gets hotter because of wide asphalt yards and lower tree cover.
+
+Seasonal travel note used by the tourism board
+“Pack layers in spring. Coastal winds arrive quickly. The ridge stays cooler at night.”
+
+====================================================================
+4) DEMOGRAPHICS AND COMMUNITY
+====================================================================
+
+Population by district (approx.)
+Old Wharf: 46,200
+Northbank: 69,800
+Juniper Heights: 58,600
+East Marrow Industrial: 41,700 (includes worker dorms)
+Seabird Peninsula: 52,900
+Mapleworks: 44,100
+Stonebridge: 53,400
+Westfield Commons: 46,100
+
+Demographic notes 
+- Northbank has the largest student population due to Rivergate University.
+- Juniper Heights has the highest proportion of families with children.
+- Old Wharf has the highest proportion of apartments and short-stay rentals.
+- East Marrow Industrial has the highest proportion of shift workers.
+
+Key community groups 
+- Rivergate Multicultural Council
+- Ember River Kayak Association
+- Seabird Peninsula Surf Life Volunteers
+- Juniper Heights Gardening Network
+- Rivergate Makers Cooperative (Mapleworks)
+- Stonebridge Heritage Walkers
+
+Public holidays observed locally
+- Bay Founding Day (first Monday in April)
+- Rivergate Lantern Night (third Saturday in October; not a day off, but citywide celebrations)
+
+====================================================================
+5) ROAD NETWORK, STREET NAMES, AND WAYFINDING
+====================================================================
+
+Road naming conventions
+- Avenues typically run east–west.
+- Roads and Drives are common in hill areas.
+- Quays, Walks, and Esplanades appear along waterfront edges.
+
+Key arterial roads
+- Meridian Avenue (E–W): Westfield Commons to Old Wharf
+- Tideway Road (N–S): Northbank to Seabird Peninsula
+- Juniper Drive (ring): Juniper Heights ridge loop
+- Foundry Boulevard: Mapleworks to East Marrow Industrial
+- Stonebridge Parkway: Stonebridge district spine
+
+Important bridges and crossings
+- Embergate Bridge (Meridian Ave crossing, downtown)
+- Heron Span (Tideway Rd crossing, estuary)
+- Stonebridge Viaduct (parkway over gorge)
+- Lantern Footbridge (pedestrian link Old Wharf to Northbank)
+
+Named streets often referenced in dispatch logs
+- Lantern Street
+- Dockmaster Quay
+- Cormorant Esplanade
+- Saffron Lane
+- Alderstone Road
+- Wren Court
+- Copper Mill Street
+- Glassworks Way
+- Harborlight Terrace
+- Driftwood Crescent
+- Pelican View Road
+- Cedarline Avenue
+- Northbank Promenade
+- Willowgate Street
+- Quarry Bend Road
+
+City wayfinding zones
+- “Blue Signs” indicate waterfront routes (Old Wharf, Seabird Peninsula).
+- “Green Signs” indicate park and trail routes (Stonebridge Gorge, Juniper Ridge).
+- “Amber Signs” indicate industrial freight routes (Foundry Blvd, East Marrow).
+
+Speed management
+Default speed limit: 50 km/h unless signed.
+School zones: 40 km/h on weekdays 08:00–09:30 and 14:30–16:00.
+CBD slow streets: 30 km/h zone around Harbor Square and Lantern Street.
+
+====================================================================
+6) EDUCATION: SCHOOLS, COLLEGES, AND TRAINING
+====================================================================
+
+Public schools (primary)
+- Northbank Primary School, 5 Meridian Ave, Northbank
+- Old Wharf Primary, 22 Lantern Street, Old Wharf
+- Seabird Shores Primary, 190 Tideway Rd, Seabird Peninsula
+- Stonebridge Creek Primary, 8 Quarry Bend Rd, Stonebridge
+- Mapleworks Community Primary, 44 Copper Mill St, Mapleworks
+- Juniper Ridge Primary, 66 Pelican View Rd, Juniper Heights
+
+Public schools (secondary)
+- Rivergate Central High, 101 Alderstone Rd, Northbank
+- Juniper Heights Secondary College, 12 Harborlight Terrace, Juniper Heights
+- Seabird Peninsula High, 250 Cormorant Esplanade, Seabird Peninsula
+- Stonebridge Technical High, 70 Stonebridge Parkway, Stonebridge
+
+Independent and special programs
+- St. Marrow Academy, 9 Driftwood Crescent, Old Wharf
+- Ember Arts Magnet School, 88 Lantern Street Annex, Old Wharf
+- Rivergate Language Institute, 17 Willowgate St, Northbank
+
+Higher education
+- Rivergate University (RGU), main campus: 200 Cedarline Ave, Northbank
+  Key faculties: Coastal Engineering, Logistics, Data Systems, Marine Biology, Public Policy
+- Alderwick TAFE Rivergate Campus, 14 Foundry Blvd, Mapleworks
+  Key programs: Welding, Mechatronics, Hospitality, Electrical Trades, Cybersecurity
+
+Library network
+- Main Library (Northbank)
+- Old Wharf Reading Room
+- Stonebridge Community Library
+- Seabird Peninsula Learning Hub
+
+====================================================================
+7) HEALTHCARE AND EMERGENCY SERVICES
+====================================================================
+
+Hospitals and clinics
+- Rivergate General Hospital (RGH), 400 Meridian Ave, Northbank
+  Emergency Department: 24/7
+  Trauma designation: Level 2 (regional)
+- Seabird Urgent Care, 260 Tideway Rd, Seabird Peninsula
+  Hours: 07:00–23:00 daily
+- Stonebridge Family Health Centre, 33 Stonebridge Lane, Stonebridge
+  Hours: Mon–Fri 08:30–18:00, Sat 09:00–13:00
+
+Emergency services
+- Rivergate Fire Department (RFD), HQ: 10 Dockmaster Quay, Old Wharf
+  Stations: Old Wharf, Northbank, Juniper Heights, Seabird Peninsula, Stonebridge, East Marrow
+- Rivergate Police Division (RPD), HQ: 2 Harbor Square, Old Wharf
+  Community desks: Northbank, Seabird Peninsula, Westfield Commons
+- Rivergate State Emergency Volunteers (RSEV), depot: 90 Foundry Blvd, Mapleworks
+
+Common emergency radio codes 
+- Code Tide: coastal flooding response
+- Code Lantern: crowd control event mode
+- Code Foundry: industrial incident response
+
+====================================================================
+8) ECONOMY, MAJOR EMPLOYERS, AND UTILITIES
+====================================================================
+
+Top employers 
+- Rivergate Transit Authority (RTA)
+- Pelican Bay Shipworks
+- Rivergate University (RGU)
+- Alderwick Waterworks
+- Ember Logistics Park
+- Juniper Solar Assembly Plant
+- Rivergate Health Network (RGH + clinics)
+
+Key commercial areas
+- Harbor Square Retail (Old Wharf)
+- Northbank Tech Corridor (Meridian Ave to Cedarline Ave)
+- Mapleworks Artisan Quarter (Copper Mill Street)
+- Seabird Boardwalk Markets (Cormorant Esplanade)
+- East Marrow Logistics Park (Foundry Blvd freight precinct)
+
+Utilities and infrastructure notes
+Flood barrier: Seabird Flood Barrier (Phase 2 planned for 2026)
+Wastewater plant: Pelican Bay Reclamation Facility (east shoreline)
+Broadband: RiverFiber (gigabit available in 6 of 8 districts)
+Public Wi-Fi: “RGC-Free” in Harbor Square, Main Library, and Civic Theatre
+
+====================================================================
+9) PUBLIC TRANSPORT: TRAINS, LINES, STATIONS, AND TIMETABLES
+====================================================================
+
+Transit operator
+Rivergate Transit Authority (RTA)
+Contact: 311 then “Transit”
+Lost property: +99 20 555 0199 
+Smartcard: “GateCard”
+Standard fare (adult, peak): 3.60 credits per trip (zones apply)
+
+Rail network overview
+Rivergate has 4 urban rail lines and 1 regional connector.
+Trains are electric multiple units (EMU) in the urban network.
+
+Major stations
+- Harbor Central (CBD, Old Wharf)
+- Northbank Junction (Northbank)
+- Juniper Ridge Station (Juniper Heights)
+- Seabird Terminal (Seabird Peninsula)
+- Mapleworks Yard (Mapleworks)
+- East Marrow Freight & Platform (limited passenger)
+- Westfield Commons Station (Westfield Commons)
+- Stonebridge Gorge Station (Stonebridge)
+
+Urban rail lines
+A) Harbor Line (HL) – Westfield ↔ Harbor Central ↔ Seabird Terminal
+Key stops: Westfield Commons, Northbank Junction, Harbor Central, Tideway Park, Seabird Terminal
+
+B) Ridge Line (RL) – Northbank Junction ↔ Juniper Ridge ↔ Stonebridge Gorge
+Key stops: Northbank Junction, Cedarline, Juniper Ridge, Quarry Bend, Stonebridge Gorge
+
+C) Foundry Line (FL) – Harbor Central ↔ Mapleworks Yard ↔ East Marrow Platform
+Key stops: Harbor Central, Copper Mill, Mapleworks Yard, Foundry Gate, East Marrow Platform
+
+D) Bay Loop (BL) – Harbor Central ↔ Old Wharf (short loop) ↔ Harbor Central
+Key stops: Harbor Central, Lantern Street, Dockmaster Quay, Harbor Central
+
+Regional connector
+E) Alderlink (ALX) – Harbor Central ↔ Alderwick City (regional capital)
+Travel time: ~58 minutes end-to-end
+
+Train timings (sample weekday timetable excerpts)
+All times are local Rivergate time (UTC+10 in this  world).
+Times shown are typical; real operations may vary in the demo.
+
+A) Harbor Line (HL) – Westfield Commons to Harbor Central (weekday)
+- 06:10, 06:25, 06:40, 06:55
+- 07:10, 07:20, 07:30, 07:40, 07:50
+- 08:05, 08:20, 08:35, 08:50
+- 09:05, then every 15 minutes until 15:05
+- 15:20, 15:35, then every 10 minutes from 16:00–18:30
+- 18:45, 19:05, 19:25, 19:45
+- 20:10, 20:40, 21:10, 21:40, 22:10, 22:40
+
+B) Harbor Line (HL) – Harbor Central to Seabird Terminal (weekday)
+- 06:18, 06:33, 06:48, 07:03
+- 07:18, 07:28, 07:38, 07:48, 07:58
+- 08:13, 08:28, 08:43, 08:58
+- 09:13, then every 15 minutes until 15:13
+- 15:28, 15:43, then every 10 minutes from 16:08–18:38
+- 18:53, 19:13, 19:33, 19:53
+- 20:18, 20:48, 21:18, 21:48, 22:18, 22:48
+
+C) Ridge Line (RL) – Northbank Junction to Juniper Ridge (weekday)
+- 06:05, 06:25, 06:45
+- 07:05, 07:20, 07:35, 07:50
+- 08:05, 08:25, 08:45
+- 09:05, then every 20 minutes until 15:05
+- 15:25, 15:45, then every 15 minutes 16:00–19:00
+- 19:15, 19:35, 19:55, 20:15, 20:35, 20:55, 21:15
+
+D) Foundry Line (FL) – Harbor Central to Mapleworks Yard (weekday)
+- 06:12, 06:42
+- 07:12, 07:32, 07:52
+- 08:12, 08:42
+- 09:12, then every 30 minutes until 15:12
+- 15:42, 16:12, 16:32, 16:52, 17:12, 17:32, 17:52
+- 18:22, 18:52, 19:22, 19:52, 20:22
+
+E) Alderlink (ALX) – Harbor Central to Alderwick City (weekday)
+- 06:30, 07:15, 08:00, 09:00
+- 10:00, 11:00, 12:00
+- 13:00, 14:00, 15:00
+- 16:00, 17:00, 18:00
+- 19:00, 20:00
+
+Late-night rail note
+After 22:00, Harbor Line trains run every 30 minutes on Fridays and Saturdays.
+Other lines stop by 21:30 on most weekdays.
+
+Accessibility features
+All major stations have tactile paving, lifts, and audio announcements.
+Low-floor boarding is available on Harbor Line and Bay Loop services.
+
+====================================================================
+10) BUS NETWORK: ROUTES, STOPS, AND TIMETABLES
+====================================================================
+
+Bus operator
+RTA Bus Services
+Fleet: hybrid and electric buses
+Bike racks: available on 60% of buses (front-mount)
+
+Fare and zones
+Same GateCard as rail.
+Transfers: free transfer within 60 minutes (one transfer allowed).
+
+Route naming format
+Routes use “B” prefix, followed by a three-digit number.
+Express routes use “BX”.
+
+Key bus interchanges
+- Harbor Central Busway (Old Wharf)
+- Northbank Junction Bus Bays
+- Seabird Terminal Interchange
+- Mapleworks Yard Interchange
+- Stonebridge Gorge Station Loop
+
+Bus route list (selected)
+B101: Harbor Central ↔ Northbank Junction ↔ RGH (Hospital)
+B203: Harbor Central ↔ Juniper Heights ↔ Juniper Ridge Station
+B240: Northbank Junction ↔ Stonebridge Gorge ↔ Quarry Bend
+B305: Harbor Central ↔ Mapleworks Artisan Quarter ↔ Copper Mill
+B410: Harbor Central ↔ Seabird Boardwalk ↔ Seabird Terminal
+BX12: Westfield Commons ↔ Harbor Central (Express, peak only)
+BX77: East Marrow Logistics ↔ Harbor Central (Shift-worker express)
+
+Bus timings (weekday sample)
+B101 (Harbor Central → RGH)
+- 06:00, 06:15, 06:30, 06:45
+- 07:00, 07:10, 07:20, 07:30, 07:40, 07:50
+- 08:05, 08:20, 08:35, 08:50
+- Then every 20 minutes until 18:50
+- 19:10, 19:30, 19:50, 20:10, 20:30, 20:50
+
+B203 (Harbor Central → Juniper Ridge Station)
+- 06:20, 06:50
+- 07:20, 07:35, 07:50
+- 08:10, 08:30, 08:50
+- 09:10, then every 30 minutes until 15:10
+- 15:40, 16:10, 16:40, 17:10, 17:40, 18:10, 18:40
+- 19:10, 19:40, 20:10
+
+B410 (Harbor Central → Seabird Terminal)
+- 06:05, 06:25, 06:45
+- 07:05, 07:20, 07:35, 07:50
+- 08:05, 08:25, 08:45
+- 09:05, then every 20 minutes until 19:05
+- 19:25, 19:45, 20:05, 20:25, 20:45, 21:05
+
+BX12 Express (Westfield Commons → Harbor Central, peak only)
+- 06:35, 06:50, 07:05, 07:20, 07:35, 07:50
+- 16:20, 16:35, 16:50, 17:05, 17:20, 17:35, 17:50
+
+Night bus note
+Night Owl service operates on Fridays and Saturdays:
+- N1: Harbor Central ↔ Northbank ↔ Westfield (hourly 23:30–03:30)
+- N4: Harbor Central ↔ Seabird (hourly 23:45–03:45)
+
+====================================================================
+11) UPCOMING ACTIVITIES, FESTIVALS, CONCERTS, AND CITY CALENDAR
+====================================================================
+
+Seasonal calendar overview
+- Summer: waterfront concerts, night markets, coastal sports, and outdoor cinema.
+- Autumn: harvest fairs, university open days, city marathon training season.
+- Winter: indoor arts season, lantern installations, food and soup trails.
+- Spring: festivals, school sports finals, garden tours, and craft fairs.
+
+Upcoming activities (, 2026)
+1) Rivergate Summer Night Market
+Dates: Every Friday from 23 Jan to 27 Mar 2026
+Time: 17:00–22:30
+Location: Dockmaster Quay, Old Wharf
+Highlights: street food, local crafts, buskers, and sunset river cruises.
+
+2) Pelican Bay Jazz Weekend
+Dates: 14–15 Feb 2026
+Time: 12:00–21:30
+Location: Civic Theatre (indoor) + Harbor Square stage (outdoor)
+Featured acts : The Juniper Brass Five, Liora Hale Trio, Bayline Swing Society.
+
+3) Ember River Paddle Festival
+Date: 1 Mar 2026
+Time: 07:30–16:00
+Route: Northbank Promenade to Seabird Inlet
+Safety note used by organizers: PFD required, wind cutoff 35 km/h.
+
+4) Rivergate University Open Campus Week
+Dates: 23–27 Mar 2026
+Time: 09:00–17:00
+Location: Rivergate University (RGU), Northbank
+Focus: Engineering demos, campus tours, scholarship talks.
+
+5) Bay Founding Day Parade
+Date: 6 Apr 2026 (first Monday in April)
+Time: 10:30–13:00
+Route: Meridian Ave → Harbor Square → Lantern Street
+Road closures: Meridian Ave closed 09:00–14:00 between Willowgate St and Dockmaster Quay.
+
+6) Stonebridge Gorge Light Walk
+Dates: 18 Jun–12 Jul 2026
+Time: 17:30–21:00 (last entry 20:15)
+Location: Stonebridge Gorge trails
+Tickets: timed entry ( pricing: 12 credits adult)
+Accessibility: step-free route available via Quarry Bend access gate.
+
+Concerts ( listings)
+- “Salt & Skylines Tour” by Maren Kells 
+  Date: 8 May 2026, 19:30
+  Venue: Rivergate Civic Theatre
+- “Waveside Orchestra: Winter Program”
+  Date: 20 Aug 2026, 19:00
+  Venue: Harbor Central Hall
+- “Lantern Night Headliners” (rotating local bands)
+  Date: 17 Oct 2026, 17:00–23:00
+  Venue: Harbor Square Outdoor Stage
+
+Annual festivals
+- Lantern Night Festival (October)
+- Seabird Boardwalk Food Fest (November)
+- Mapleworks Makers Fair (September)
+- Juniper Ridge Trail Run (April)
+
+====================================================================
+12) SPORTS, TEAMS, VENUES, AND LEAGUES
+====================================================================
+
+Major sports teams 
+1) Rivergate Tides (football/soccer)
+League: Lydiana Premier Coast League (LPCL)
+Home ground: Tidefield Stadium, 300 Tideway Rd, Seabird Peninsula
+Team colors: teal and white
+Mascot: “Captain Heron”
+
+2) Northbank Forge (basketball)
+League: Alderwick Metro Hoops
+Home court: Northbank Arena, 40 Cedarline Ave
+Known for: strong defensive play and youth academy.
+
+3) Juniper Ravens (rugby)
+League: Provincial Championship
+Home ground: Juniper Ridge Oval, 77 Pelican View Rd
+
+4) Rivergate Mariners (baseball)
+League: Bay Summer Series (seasonal)
+Home diamond: Dockside Park, Old Wharf
+
+Community sports venues
+- Stonebridge Aquatic & Climbing Centre
+- Mapleworks Community Fields
+- Westfield Commons Athletics Track
+
+Sports calendar highlights 
+- Rivergate Tides home opener: 7 Mar 2026
+- Northbank Forge derby game: 16 Apr 2026
+- Juniper Ravens finals weekend: 12 Sep 2026
+
+====================================================================
+13) TOURISM, LANDMARKS, AND CULTURE
+====================================================================
+
+Key landmarks
+- Harbor Square and the Rivergate Clocktower
+- Ember River Boardwalk (Seabird Peninsula)
+- Stonebridge Gorge Lookout
+- The Old Wharf Shipwright Sheds (heritage site)
+- Juniper Ridge Summit Trail
+
+Museums and galleries
+- Rivergate Maritime Museum, 9 Dockmaster Quay
+- Ember Contemporary Gallery, 33 Lantern Street
+- Juniper Natural History Hall, 210 Pelican View Rd
+
+Recommended visitor routes 
+1) “Two Bridges Walk”
+Start: Harbor Central → Lantern Footbridge → Northbank Promenade → Embergate Bridge → Harbor Square
+Distance: 4.6 km
+
+2) “Boardwalk to Bay”
+Start: Tideway Park Station → Cormorant Esplanade → Seabird Inlet
+Distance: 5.2 km
+
+Cultural notes used in brochures
+Rivergate is known for its winter soup trails and spring garden tours.
+Local food highlights include smoked bay mussels and juniper honey.
+
+====================================================================
+14) HOUSING, PLANNING, AND ZONING SNAPSHOT
+====================================================================
+
+Typical housing types by area
+- Old Wharf: apartments, heritage terraces
+- Northbank: mid-rise apartments, student housing
+- Juniper Heights: detached homes, ridge-view townhouses
+- Seabird Peninsula: mixed coastal homes, holiday rentals
+- Mapleworks: loft conversions, worker cottages
+- Stonebridge: family homes, creekside units
+- Westfield Commons: newer subdivisions, townhomes
+- East Marrow Industrial: limited residential, worker housing blocks
+
+Zoning codes ( examples)
+- R1: Low-density residential
+- R3: Medium-density residential
+- MX: Mixed-use corridor
+- IN: Industrial
+- CR: Coastal resilience overlay
+- HW: Heritage waterfront overlay
+
+Common planning hotline questions
+- “Is my property in the CR overlay?”
+- “What is the maximum building height on Meridian Avenue?”
+- “How do I apply for a deck permit on Seabird Peninsula?”
+
+====================================================================
+15) ENVIRONMENT, PARKS, AND SUSTAINABILITY
+====================================================================
+
+Major parks
+- Pelican Bay Reserve (Seabird)
+- Juniper Ridge Park (Juniper Heights)
+- Stonebridge Gorge Park (Stonebridge)
+- Westfield Commons Greenway (Westfield)
+
+Sustainability programs
+- “Shade Streets 2026” tree canopy initiative
+- “Clean Bay Pledge” litter reduction and stormwater filters
+- “Solar for Schools” pilot program (Juniper Ridge Primary and Seabird Shores Primary)
+
+Recycling guidance used in pamphlets
+- Rinse containers.
+- Flatten cardboard.
+- No soft plastics in the curbside bin (drop-off at “Blue Bag” stations instead).
+
+====================================================================
+16) CITY CONTACT DIRECTORY 
+====================================================================
+
+City Hall switchboard: 311
+After-hours roads hotline: +99 20 555 0155
+Waterworks faults: +99 20 555 0122
+Transit helpdesk: +99 20 555 0180
+Library services: +99 20 555 0160
+Tourism desk: +99 20 555 0110
+
+Frequently referenced addresses
+- Rivergate City Hall: 1 Harbor Square, Old Wharf
+- Harbor Central Station: 3 Harbor Square, Old Wharf
+- Northbank Junction Station: 99 Meridian Ave, Northbank
+- Rivergate General Hospital: 400 Meridian Ave, Northbank
+- Tidefield Stadium: 300 Tideway Rd, Seabird Peninsula
+
+====================================================================
+17) OTHER DOMAINS USEFUL FOR CITY DEMOS
+====================================================================
+
+A) Postal and addressing
+ postal code format: RG-#### (four digits)
+Examples:
+- Old Wharf: RG-1001 to RG-1099
+- Northbank: RG-2001 to RG-2099
+- Juniper Heights: RG-3001 to RG-3099
+- Seabird Peninsula: RG-5001 to RG-5099
+
+B) Tax and fees 
+- Local property levy: 0.62% of assessed value (annual)
+- Business signage permit: 120 credits per year (standard storefront sign)
+
+C) Safety inspections 
+- Food premises inspection rating: A, B, C (A is best)
+- Fire inspection cycle: high occupancy every 12 months, standard every 24 months
+
+D) Water restrictions message examples 
+Stage 1: Water gardens only before 09:00 or after 18:00. No hosing hard surfaces.
+Stage 2: Hand-held hose only with trigger nozzle. No car washing at home.
+
+E) City digital services 
+- “MyRivergate” portal for rates, permits, and service requests
+- RTA app for GateCard top-ups and disruption notices
+
+====================================================================
+18) SMALL “ODD DETAILS”
+====================================================================
+
+- The city’s official bird is the coastal heron.
+- The city’s municipal fleet vehicles are numbered RG-FLT-1000 to RG-FLT-1399.
+- The transit control center is called the Northbank Operations Center (NOC).
+- The best-known local bakery is “Lantern Loaf” on Lantern Street .
+- The annual Lantern Night Festival uses a traffic plan called “Code Lantern.”
+- The Ember River is sometimes called “The Ember” in local news headlines.
+- The city’s internal procurement system is nicknamed “HarborBid.”
+
+End of document.
