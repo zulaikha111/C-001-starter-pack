@@ -1,112 +1,244 @@
 # Day 2: Building AI Agents & Skills
 
-## 1. The Search Tool (MCP)
+## 1. Google Search (MCP)
 
 We use SerpApi to give Claude real-time access to Google Search. We use the **Hosted** version to avoid local installation issues.
 
 **Command:**
 
 ```bash
-claude mcp add google-search --scope user --transport http https://www.google.com/search?q=https://mcp.serpapi.com/YOUR_API_KEY/mcp
+claude mcp add google-search --scope user --transport http https://mcp.serpapi.com/<REPLACE_WITH_API_KEY>/mcp
 ```
 
-**Description:** Provides real-time web search capabilities to find local businesses, coordinates, and points of interest.
+**Description:** Provides real-time web search capabilities to find academic papers, research articles, and general information.
 
-## 2. The Weather Tool (MCP)
+## 2. Asana (MCP)
 
-We use the Open-Meteo server. It is global, supports Australia (BOM data), and requires no credit cards or keys.
+We use the Asana MCP server to manage projects and tasks.
 
 **Command:**
 
 ```bash
-claude mcp add weather --scope user -- npx -y @dangahagan/weather-mcp
+claude mcp add --transport sse asana https://mcp.asana.com/sse
 ```
 
-**Description:** Retrieves high-accuracy weather forecasts, current conditions, and location geocoding for any Australian town.
+**Description:** Provides tools to create and manage Asana projects, tasks, and workflows.
 
-## 3. The Specialist Agent
+## 3. Skills
 
-We create a **Subagent** to handle the weather research. This keeps the main chat window clean and saves tokens.
+### Paper Research Skill
 
-**File Path:** `.claude/agents/weather-analyst.md`
+Searches for academic papers and formats results consistently.
+
+**File Path:** `.claude/skills/paper-research/SKILL.md`
 
 **Content:**
 
 ```markdown
 ---
-name: weather-analyst
-description: Automatically handles all Australian weather research, location searching, and road condition analysis.
-tools: [weather]
+name: paper-research
+description: Search for academic papers on a given topic and provide structured summaries.
 ---
 
-# PRE-FLIGHT CHECK (Mandatory)
-Before using ANY tool:
-1. Identify the requested location.
-2. If the location is NOT in Victoria or Sydney (e.g., Perth, Adelaide, Brisbane):
-   - **DO NOT CALL THE WEATHER TOOL.**
-   - Immediately respond: "I am geofenced to the Melbourne-Sydney corridor. I cannot retrieve data for [Location]."
-   - Stop processing.
+# Paper Research Skill
 
-# Instructions
+## Instructions
 
-You are a Weather Specialist for Australian Road Trips.
+1. Use google-search MCP with `num=2` parameter to find exactly 2 papers
+2. Extract: title, authors, year, key finding (1 sentence max), URL
+3. Format as:
 
-1. Use `search_locations` to find the exact Lat/Long for any town mentioned.
-2. Retrieve the 3-day forecast.
-3. If wind gusts exceed 40km/h or the UV index is above 8, provide a specific safety warning.
-4. Greet the user by name if it is provided in your instructions.
+```
+Paper: [Title]
+Authors: [Names]
+Year: [Year]
+Key Findings: [One sentence]
+URL: [Link]
+────────────────────────────────────────
+Paper: [Title]
+Authors: [Names]
+Year: [Year]
+Key Findings: [One sentence]
+URL: [Link]
 ```
 
+Return only this format, no extra text.
+```
 
+### Smart Task Creator Skill
 
-## 4. The Presentation Skill
+Creates well-structured Asana tasks with acceptance criteria.
 
-This **Skill** ensures that no matter how messy the raw data is, the output for the user is beautiful and easy to read.
-
-**File Path:** `.claude/skills/weather-style/SKILL.md`
+**File Path:** `.claude/skills/smart-task-creator/SKILL.md`
 
 **Content:**
 
 ```markdown
 ---
-name: weather-style
-description: Automatically formats raw meteorological data into emoji-rich tables for travel reports.
+name: smart-task-creator
+description: Create well-structured Asana tasks with proper descriptions and acceptance criteria.
 ---
 
-# Formatting Rules
+# Smart Task Creator Skill
 
-1. Start with a header: `# 🇦🇺 Weather Report: [Location]`
-2. Use a Markdown table for Current Temp, Humidity, and Wind.
-3. Use specific emojis for conditions: ☀️ (Sunny), 🌦️ (Showers), ⛈️ (Storms).
-4. Always end with: "Drive Safe! 🚗", and a funny travel joke
+## Instructions
+
+1. Ask user: title, due date, priority, project name (if missing)
+2. Create task in Asana with:
+   - Objective (1 sentence)
+   - 3 acceptance criteria
+   - Estimated effort
+3. Return: task URL only
+
+Keep descriptions under 200 words.
 ```
-## Final `CLAUDE.md` Configuration
 
-This file acts as the Orchestrator. It ensures the main Claude instance knows exactly when to use the tools you just built. Copy this into the root of your project folder.
+## 4. Agents
+
+### Literature Review Assistant (Single Agent)
+
+Handles complete literature review setup autonomously.
+
+**File Path:** `.claude/agents/literature-review-assistant.md`
+
+**Content:**
 
 ```markdown
-# Project: Australian Road Trip Planner
-Location: Melbourne, VIC
+---
+name: literature-review-assistant
+description: Helps researchers set up new research projects by finding papers and creating structured Asana tasks.
+---
 
-## Available Subagents
-- **@weather-analyst**: Delegate all weather research, location lookups, and forecast analysis to this agent.
+# Literature Review Assistant
 
-## Available Skills
-- **weather-style**: This skill is automatically active. It must be used to format any weather data into user-facing tables.
+## Workflow
 
-## Project Rules
-- All temperatures must be in Celsius.
-- All distances must be in Kilometers.
-- Prefer local Australian Bureau of Meteorology (BOM) data interpretations via Open-Meteo.
+Given a research topic:
+
+1. Find 2 papers using google-search (num=2)
+2. Create Asana project: "[Topic] Literature Review"
+3. Create 3 tasks: read paper 1, read paper 2, write synthesis
+4. Return: paper titles + task URLs
+
+Keep all outputs concise.
+```
+
+### Research Finder (Subagent)
+
+Specialized agent for finding academic papers.
+
+**File Path:** `.claude/agents/research-finder.md`
+
+**Content:**
+
+```markdown
+---
+name: research-finder
+description: Specialized agent that finds and evaluates academic papers using google-search MCP.
+---
+
+# Research Finder
+
+## Task
+
+Find 2 papers on given topic using google-search (num=2).
+
+## Output
+
+```
+Paper 1: [Title]
+Authors: [Names]
+Year: [Year]
+URL: [Link]
+
+Paper 2: [Title]
+Authors: [Names]
+Year: [Year]
+URL: [Link]
+```
+
+No additional text.
+```
+
+### Project Planner (Subagent)
+
+Specialized agent for creating Asana projects and tasks.
+
+**File Path:** `.claude/agents/project-planner.md`
+
+**Content:**
+
+```markdown
+---
+name: project-planner
+description: Specialized agent that creates research projects and tasks in Asana with proper structure and timelines.
+---
+
+# Project Planner
+
+## Task
+
+Create Asana project with tasks for given papers and timeline.
+
+## Steps
+
+1. Create project: "[Topic] Research"
+2. Create tasks: "Read: [Paper Title]" for each paper
+3. Add synthesis task
+4. Set due dates based on timeline
+
+## Output
+
+Return project URL + task URLs only.
+```
+
+### Research Coordinator (Orchestrator)
+
+Main agent that coordinates the subagents.
+
+**File Path:** `.claude/agents/research-coordinator.md`
+
+**Content:**
+
+```markdown
+---
+name: research-coordinator
+description: Main orchestrator that coordinates research-finder and project-planner agents to set up complete research projects.
+---
+
+# Research Coordinator
+
+## Workflow
+
+1. Ask user: topic, timeline (default: 1 month)
+2. Delegate to @research-finder: find 2 papers
+3. Delegate to @project-planner: create project with those papers
+4. Return: paper list + project URL
+
+Keep all responses concise.
 ```
 
 ## Verification Checklist for Students
 
-- Run `/mcp` — Ensure `google-search` and `weather` have green dots.
-- Run `/agents` — Ensure `weather-analyst` appears in the list.
+- Run `/mcp` — Ensure `google-search` and `asana` have green dots.
+- Run `/skills` — Ensure `paper-research` and `smart-task-creator` appear in the list.
+- Run `/agents` — Ensure all 4 agents appear in the list.
 
-**The Master Test:** Type:
+## Test Prompts
 
-> Check the weather for my drive from Melbourne to Albury tomorrow.
+### Test Single Skill
+```
+Use paper-research skill to find papers on "few-shot learning"
+```
 
-**Expected Result:** Claude should automatically spawn the analyst, find the data, and present a table with emojis without you asking for them.
+### Test Single Agent
+```
+Use literature-review-assistant agent to set up a project on "prompt engineering"
+```
+
+### Test Multi-Agent Orchestration
+```
+Use research-coordinator agent to set up a 1-month research project on "vision transformers"
+```
+
+**Expected Result:** The coordinator should delegate to research-finder and project-planner, then return a complete project with paper details and Asana task links.
