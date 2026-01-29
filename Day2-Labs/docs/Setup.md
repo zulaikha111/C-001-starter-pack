@@ -1,5 +1,29 @@
 # Setting up Claude
 
+## Install Claude
+
+### MacOS
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Add Claude to PATH for current terminal session:
+```bash
+export PATH="$HOME/.claude/bin:$PATH"
+```
+
+### Windows
+
+```cmd
+curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
+
+Add Claude to PATH for current terminal session:
+```cmd
+set PATH=%USERPROFILE%\.claude\bin;%PATH%
+```
+
 ## Set Claude API Key Helper (MacOS users only!)
 
 ```
@@ -7,12 +31,6 @@ mkdir -p ~/.claude
 
 echo '{
   "apiKeyHelper": "echo <REPLACE WITH API KEY>",
-  "permissions": {
-    "deny": [
-      "WebSearch",
-      "WebFetch"
-    ]
-  },
   "model": "haiku"
 }' > ~/.claude/settings.json
 
@@ -27,12 +45,6 @@ if (!(Test-Path $configDir)) { New-Item -ItemType Directory -Path $configDir -Fo
 $settings = @'
 {
   "apiKeyHelper": "echo <REPLACE_WITH_YOUR_KEY>",
-  "permissions": {
-    "deny": [
-      "WebSearch",
-      "WebFetch"
-    ]
-  },
   "model": "haiku"
 }
 '@;

@@ -23,6 +23,7 @@ claude mcp add --transport sse asana https://mcp.asana.com/sse
 ```
 
 **Description:** Provides tools to create and manage Asana projects, tasks, and workflows.
+**Asana Authentication:** Make sure you have a valid Asana trial account, and authenticate your MCP to it
 
 ## 3. Skills
 
