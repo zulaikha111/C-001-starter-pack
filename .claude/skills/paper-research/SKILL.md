@@ -7,7 +7,7 @@ description: Search for academic papers on a given topic and provide structured 
 
 ## Instructions
 
-1. Use google-search MCP with `num=2` parameter to find exactly 2 papers
+1. Use WebSearch tool to find exactly 2 papers
 2. Extract: title, authors, year, key finding (1 sentence max), URL
 3. Format as:
 

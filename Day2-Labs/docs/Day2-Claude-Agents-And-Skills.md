@@ -1,18 +1,7 @@
 # Day 2: Building AI Agents & Skills
 
-## 1. Google Search (MCP)
 
-We use SerpApi to give Claude real-time access to Google Search. We use the **Hosted** version to avoid local installation issues.
-
-**Command:**
-
-```bash
-claude mcp add google-search --scope user --transport http https://mcp.serpapi.com/<REPLACE_WITH_API_KEY>/mcp
-```
-
-**Description:** Provides real-time web search capabilities to find academic papers, research articles, and general information.
-
-## 2. Asana (MCP)
+## 1. Asana (MCP)
 
 We use the Asana MCP server to manage projects and tasks.
 
@@ -45,7 +34,7 @@ description: Search for academic papers on a given topic and provide structured 
 
 ## Instructions
 
-1. Use google-search MCP with `num=2` parameter to find exactly 2 papers
+1. Use WebSearch to find exactly 2 papers
 2. Extract: title, authors, year, key finding (1 sentence max), URL
 3. Format as:
 
@@ -116,7 +105,7 @@ description: Helps researchers set up new research projects by finding papers an
 
 Given a research topic:
 
-1. Find 2 papers using google-search (num=2)
+1. Find 2 papers using WebSearch tool
 2. Create Asana project: "[Topic] Literature Review"
 3. Create 3 tasks: read paper 1, read paper 2, write synthesis
 4. Return: paper titles + task URLs
@@ -135,14 +124,14 @@ Specialized agent for finding academic papers.
 ```markdown
 ---
 name: research-finder
-description: Specialized agent that finds and evaluates academic papers using google-search MCP.
+description: Specialized agent that finds and evaluates academic papers using WebSearch tool.
 ---
 
 # Research Finder
 
 ## Task
 
-Find 2 papers on given topic using google-search (num=2).
+Find 2 papers on given topic using WebSearch tool.
 
 ## Output
 
@@ -221,7 +210,7 @@ Keep all responses concise.
 
 ## Verification Checklist for Students
 
-- Run `/mcp` — Ensure `google-search` and `asana` have green dots.
+- Run `/mcp` — Ensure  `asana` have green dot.
 - Run `/skills` — Ensure `paper-research` and `smart-task-creator` appear in the list.
 - Run `/agents` — Ensure all 4 agents appear in the list.
 

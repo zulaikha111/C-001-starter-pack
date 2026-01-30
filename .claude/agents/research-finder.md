@@ -1,13 +1,13 @@
 ---
 name: research-finder
-description: Specialized agent that finds and evaluates academic papers using google-search MCP.
+description: Specialized agent that finds and evaluates academic papers using WebSearch tool.
 ---
 
 # Research Finder
 
 ## Task
 
-Find 2 papers on given topic using google-search (num=2).
+Find 2 papers on given topic using WebSearch.
 
 ## Output
 
