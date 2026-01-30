@@ -62,5 +62,5 @@ claude
 ## Check status
 
 ```
-Status
+/status
 ```
