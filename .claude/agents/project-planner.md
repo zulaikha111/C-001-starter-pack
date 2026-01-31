@@ -1,6 +1,6 @@
 ---
 name: project-planner
-description: Specialized agent that creates research projects and tasks in Asana with proper structure and timelines.
+description: Specialized agent that creates research projects and tasks in Asana using Asana tool with proper structure and timelines.
 ---
 
 # Project Planner

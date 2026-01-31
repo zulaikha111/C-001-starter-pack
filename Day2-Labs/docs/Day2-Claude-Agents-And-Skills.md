@@ -1,5 +1,16 @@
 # Day 2: Building AI Agents & Skills
 
+##
+
+Make sure you have followed the steps in `Setup.md` file to install Claude Code, and configure the API Key
+
+## Setting up Visual Studio
+
+- Download this starter pack repo
+- Unzip the file
+- Open Visual Studio Code
+- Click File --> Open Folder --> Select The inner folder in the unzipped starter pack folder
+- Open a terminal --> Click Terminal in the menu --> New Terminal
 
 ## 1. Asana (MCP)
 
@@ -16,219 +27,56 @@ claude mcp add --transport sse asana https://mcp.asana.com/sse
 
 ## 3. Skills
 
-### Paper Research Skill
+Lets go through some of the skills, and agents - and their definitions
 
-Searches for academic papers and formats results consistently.
+### project-checklist
+- Path: `.claude/skills/project-checklist/SKILL.md`
+- Creates a short beginner-friendly project checklist with done criteria, scope, and tasks. Saves to a file.
 
-**File Path:** `.claude/skills/paper-research/SKILL.md`
+### research-asana
+- Path: `.claude/skills/research-asana/SKILL.md`
+- Finds 2 papers with @research-finder, then creates an Asana project + tasks with @project-planner.
 
-**Content:**
+## Agents
 
-```markdown
----
-name: paper-research
-description: Search for academic papers on a given topic and provide structured summaries.
----
+### research-finder
+- Path: `.claude/agents/research-finder.md`
+- Specialized agent that finds and evaluates academic papers using WebSearch tool.
 
-# Paper Research Skill
+### project-planner
+- Path: `.claude/agents/project-planner.md`
+- Specialized agent that creates research projects and tasks in Asana using Asana tool with proper structure and timelines.
 
-## Instructions
-
-1. Use WebSearch to find exactly 2 papers
-2. Extract: title, authors, year, key finding (1 sentence max), URL
-3. Format as:
-
-```
-Paper: [Title]
-Authors: [Names]
-Year: [Year]
-Key Findings: [One sentence]
-URL: [Link]
-────────────────────────────────────────
-Paper: [Title]
-Authors: [Names]
-Year: [Year]
-Key Findings: [One sentence]
-URL: [Link]
-```
-
-Return only this format, no extra text.
-```
-
-### Smart Task Creator Skill
-
-Creates well-structured Asana tasks with acceptance criteria.
-
-**File Path:** `.claude/skills/smart-task-creator/SKILL.md`
-
-**Content:**
-
-```markdown
----
-name: smart-task-creator
-description: Create well-structured Asana tasks with proper descriptions and acceptance criteria.
----
-
-# Smart Task Creator Skill
-
-## Instructions
-
-1. Ask user: title, due date, priority, project name (if missing)
-2. Create task in Asana with:
-   - Objective (1 sentence)
-   - 3 acceptance criteria
-   - Estimated effort
-3. Return: task URL only
-
-Keep descriptions under 200 words.
-```
-
-## 4. Agents
-
-### Literature Review Assistant (Single Agent)
-
-Handles complete literature review setup autonomously.
-
-**File Path:** `.claude/agents/literature-review-assistant.md`
-
-**Content:**
-
-```markdown
----
-name: literature-review-assistant
-description: Helps researchers set up new research projects by finding papers and creating structured Asana tasks.
----
-
-# Literature Review Assistant
-
-## Workflow
-
-Given a research topic:
-
-1. Find 2 papers using WebSearch tool
-2. Create Asana project: "[Topic] Literature Review"
-3. Create 3 tasks: read paper 1, read paper 2, write synthesis
-4. Return: paper titles + task URLs
-
-Keep all outputs concise.
-```
-
-### Research Finder (Subagent)
-
-Specialized agent for finding academic papers.
-
-**File Path:** `.claude/agents/research-finder.md`
-
-**Content:**
-
-```markdown
----
-name: research-finder
-description: Specialized agent that finds and evaluates academic papers using WebSearch tool.
----
-
-# Research Finder
-
-## Task
-
-Find 2 papers on given topic using WebSearch tool.
-
-## Output
-
-```
-Paper 1: [Title]
-Authors: [Names]
-Year: [Year]
-URL: [Link]
-
-Paper 2: [Title]
-Authors: [Names]
-Year: [Year]
-URL: [Link]
-```
-
-No additional text.
-```
-
-### Project Planner (Subagent)
-
-Specialized agent for creating Asana projects and tasks.
-
-**File Path:** `.claude/agents/project-planner.md`
-
-**Content:**
-
-```markdown
----
-name: project-planner
-description: Specialized agent that creates research projects and tasks in Asana with proper structure and timelines.
----
-
-# Project Planner
-
-## Task
-
-Create Asana project with tasks for given papers and timeline.
-
-## Steps
-
-1. Create project: "[Topic] Research"
-2. Create tasks: "Read: [Paper Title]" for each paper
-3. Add synthesis task
-4. Set due dates based on timeline
-
-## Output
-
-Return project URL + task URLs only.
-```
-
-### Research Coordinator (Orchestrator)
-
-Main agent that coordinates the subagents.
-
-**File Path:** `.claude/agents/research-coordinator.md`
-
-**Content:**
-
-```markdown
----
-name: research-coordinator
-description: Main orchestrator that coordinates research-finder and project-planner agents to set up complete research projects.
----
-
-# Research Coordinator
-
-## Workflow
-
-1. Ask user: topic, timeline (default: 1 month)
-2. Delegate to @research-finder: find 2 papers
-3. Delegate to @project-planner: create project with those papers
-4. Return: paper list + project URL
-
-Keep all responses concise.
-```
 
 ## Verification Checklist for Students
-
+- Lauch claude code from the VSCode terminal (type claude, press enter)
 - Run `/mcp` — Ensure  `asana` have green dot.
-- Run `/skills` — Ensure `paper-research` and `smart-task-creator` appear in the list.
-- Run `/agents` — Ensure all 4 agents appear in the list.
+- Run `/skills` — Ensure `project-checklist` and `research-asana` appear in the list.
+- Run `/agents` — Ensure `project-planner`, and `research-finder` agents appear in the list.
 
 ## Test Prompts
 
+Lets use these sample prompts to test some of the skills, and agents
+
 ### Test Single Skill
 ```
-Use paper-research skill to find papers on "few-shot learning"
+Use project-checklist skill to create a checklist for  "Website for community sports group" "2026-03-01"  
 ```
+
+**Expected outcome:** Showing the invocation of a single Claude code agent that show reusable prompts, and the result is a project checklist markdown file.
 
 ### Test Single Agent
 ```
-Use literature-review-assistant agent to set up a project on "prompt engineering"
+Use research-finder skill to find 2 academic papers on: LLM Transformers architecture
 ```
+
+**Expected outcome:** Showing the invocation of a single Claude code agent that shows how an ageng runs tools, and acheives its outcome, in its own context window
 
 ### Test Multi-Agent Orchestration
 ```
-Use research-coordinator agent to set up a 1-month research project on "vision transformers"
+/research-asana "Climate change impact on weather patterns" "1 month"
 ```
 
-**Expected Result:** The coordinator should delegate to research-finder and project-planner, then return a complete project with paper details and Asana task links.
+**Expected Result:**
+- Showing how the research-asana skill delegates to research-finder and project-planner agnets, then return a complete project with paper details and Asana task links.
+- Verify the Asana project, and tasks are created

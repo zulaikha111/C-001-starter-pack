@@ -1,4 +1,0 @@
-- Ask your LangFlow agent (one by one):
-  - “Create a calendar event on my primary calendar titled {Put your event here} on 22 January 2026 at 8:00 PM Australia/Melbourne for 1 hour. Invite this attendee: {Your email address here}
-  - Send an email to {email_address}, with subject "Hello there", and message "This is your personal agent"
-  - Write a two verse poem and write it to a google doc called Poem

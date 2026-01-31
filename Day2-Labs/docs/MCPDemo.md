@@ -1,0 +1,4 @@
+- We will use Asana (a project management tool) MCP to create, review, list Asana tasks
+- Add the Asana MCP: claude mcp add --transport sse asana https://mcp.asana.com/sse
+- Authenticate to it
+- Prompt "Use the Asana MCP to create a new Asana project called “Design Work”, then create a task in it named “Complete design document”, assign it to me (the authenticated user), and set the due date to **2026-06-30** (since **31 June 2026** isn’t a valid date). Return only the project URL and task URL."
